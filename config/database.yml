@@ -13,4 +13,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV[postgresql://protospace_47240_id_production_user:0pdD3OKIVdak5xlXqsCjhi4A1MIGumlp@dpg-d7krp1jeo5us73d5mn50-a/protospace_47240_id_production] %>
+  url: <%= ENV['DATABASE_URL'] %>
